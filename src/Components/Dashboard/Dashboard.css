@@ -1,0 +1,62 @@
+.dashboard {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fef4e5; /* A light, warm color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff9800; /* Orange color for a lucky feel */
+  }
+  
+  .selected-numbers {
+    text-align: left;
+  }
+  
+  .numbers-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
+  
+  .numbers-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .number-item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #ff5722; /* A different shade of orange */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: transform 2s ease;
+    transform-origin: center center;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
